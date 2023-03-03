@@ -1,0 +1,8 @@
+world server {
+    import types: pkg.types
+
+    import component: pkg.component
+    import entity: pkg.entity
+
+    export guest: pkg.guest
+}

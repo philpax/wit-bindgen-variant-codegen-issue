@@ -1,0 +1,7 @@
+default interface guest {
+    use pkg.component.{component-type}
+
+    init: func()
+    // Necessary to force the generation of Param/Result types
+    exec: func(event-data: list<tuple<u32, component-type>>)
+}

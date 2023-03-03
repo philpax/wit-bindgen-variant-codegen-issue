@@ -1,0 +1,12 @@
+[package]
+edition = "2021"
+name = "guest"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+required-features = []
+
+[dependencies]
+
+[workspace]

@@ -1,0 +1,6 @@
+default interface entity {
+    use pkg.component.{entity as entity-data}
+    use pkg.types.{entity-id}
+
+    spawn: func(data: entity-data) -> entity-id
+}
